@@ -1,7 +1,7 @@
 Warning: Experimental, causes problems
 
 Doesn't work on AX210 with `Conflict between TLV & NVM regarding enabling LAR (TLV = enabled NVM =disabled)`
-(This is also the reason why disable_lar got removed)
+(This is also the reason why lar_disable got removed in 5.4)
 
 ```
 git clone --depth 1 https://git.kernel.org/pub/scm/linux/kernel/git/iwlwifi/backport-iwlwifi.git
